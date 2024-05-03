@@ -1,0 +1,167 @@
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.footer {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.hero {
+  margin-bottom: 0; 
+}
+
+/* NAVBAR*/
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.navbar__item {
+  margin-right: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* HERO */
+.hero {
+  background-color: #f1f3ff;
+  background-size: cover;
+}
+
+.hero__text {
+  margin: 16px 0px 16px 0px;
+}
+
+.hero__left {
+  padding: 0 0 0 100px;
+}
+
+.hero__right {
+  padding: 0 0 0 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* FILTER CAR*/
+
+.filter-car {
+  /* position: relative;
+  z-index: 1;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1040px; 
+  margin: -50px auto;
+}
+
+.filter-car__row {
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.filter-car__content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* HASIL FILTER CAR */
+
+#carList {
+  margin-top: 90px;
+}
+
+#carList .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Untuk rata tengah secara horizontal */
+  gap: 24px; /* Jarak antar card */
+}
+
+#carList .col {
+  max-width: 333px;
+}
+
+.card {
+  max-width: 333px;
+  height:auto;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.list-group-item {
+  border: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.btnPilihMobil {
+  width: 100%; 
+  display: block; 
+}
+
+/* FOOTER */
+.footer__icon {
+  margin-right: 16px;
+}
+
+/* COLOR */
+.bg--limegreen-04 {
+  background-color: #5cb85f;
+}
+.bg--darkblue-04 {
+  background-color: #0d28a6;
+}
+
+.font--white {
+  color: #fff;
+}
+
+/* FONT SIZE */
+.font--size-12 {
+  font-size: 12px;
+}
+.font--size-14 {
+  font-size: 14px;
+}
+.font--size-16 {
+  font-size: 16px;
+}
+.font--size-24 {
+  font-size: 24px;
+}
+.font--size-36 {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero,
+  .footer {
+    margin-bottom: 60px;
+  }
+
+  .offcanvas {
+    max-width: 180px;
+  }
+
+  .hero__left {
+    padding: 50px 16px;
+  }
+
+  .footer__copyright {
+    margin-top: 16px;
+  }
+}
